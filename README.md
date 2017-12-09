@@ -1,10 +1,9 @@
 # helheim-glacier
-This repository is for code, schematics and artwork for PCB's for the NERC Networks of Sensors in Extreme Environments project 
-which monitored spatial extension of Helheim glacier using 2 wireless sensor networks for transmitting high resolution RTK GPS data to
-adjacent Linux base-stations on either side of the fjord. The project aimed to monitor flexure of the glacier during the Summer
-melt when the ice sheet moved at 10 - 200 cm or so per hour (I forget the actual figure).
+This INCOMPLETE! repository is for code, schematics and artwork for PCB's for the NERC Networks of Sensors in Extreme Environments project. It will be updated shortly as soon as I find time.
 
-The repository is not complete at the time of writing, until I find time to add all of the code.
+The project deployed 20 GNSS/GPS nodes on the Glaicer surface and  monitored spatial extension of Helheim glacier using 2 wireless sensor networks for transmitting high resolution RTK GPS data to adjacent Linux base-stations on either side of the fjord. The project aimed to monitor flexure of the glacier during the Summer melt when the ice sheet moved at 10 - 200 cm or so per hour (I forget the actual figure).
+
+The repository is as mentioned not complete at the time of writing, until I find time to add all of the code.
 
 Contents are as follows:
 1.  at Tiny C/C++ code for external watchdog timer for Waspmote. This code runs on a serial interface board which interfaces the binary 220 byte payload from the GPS/GNSS front end to the ATMega on the Waspmote. The data is then transmitted via XBee Pro (Zigbee) radio. Each GNSS/GPS has two waspmotes transmitting so as to avoid co-channel interference.
