@@ -18,7 +18,7 @@ the XBee pro Zibgee module to rejoin its respective coordinator node on the side
 
 2.  Waspmote processing (similar to C++/C) code running on ATMega 1280.
 
-3.  Libelium v.28 api.  This is the stock code which requires slight modification to allow an escaped binary payload to be sent of up to 250 bytes. Details of the modifications also included reducting memory use to cut down on the chances of stack overflow due to code bugs causeing pointers to overrun.
+3.  Libelium v.28 api, which is C++ libraries for ATmega using 802.15.4 style frames.  This is the stock code which requires slight modification to allow an escaped binary payload to be sent of up to 250 bytes. Details of the modifications also included reducting memory use to cut down on the chances of stack overflow due to code bugs causeing pointers to overrun.
 
 4.  Daughter board PCB and gerber files for Eagler v5.X.
 
