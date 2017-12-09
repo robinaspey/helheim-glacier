@@ -1,5 +1,11 @@
 /*  Waits for pin change interrupt on ATtiny85. If this does not
  *  happen then the waspmote reboots.
+ *  This is required due to a bug in Waspmote API v.028 which causes
+ *  a stack overflow leading to unpredictable behaviour. Eventually
+ *  a reboot will fix the problem triggered by the ATtiny on the
+ *  serial comms daughter board connecting Waspmote to the GNSS/GPS
+ *  which translates RS232 to TTL 3.3V.
+ *
  *  Created:	09-Jul-13 10:28:46 AM
  *  Author:	R.Aspey
  */ 
